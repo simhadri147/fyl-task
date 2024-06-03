@@ -1,0 +1,598 @@
+.container {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.first-text {
+    margin-top: 90px;
+    text-align: left;
+    font: normal normal 400 30px/110px 'Cormorant SC', serif;
+    color: #FF3147;
+    text-transform: uppercase;
+    margin-bottom: -50px;
+}
+
+.second-text {
+    margin-top: 15px;
+    text-align: left;
+    font: normal normal bold 40px/80px 'Cormorant SC', serif;
+    color: #000000;
+    text-transform: uppercase;
+}
+
+.third-text {
+    margin-top: 30px;
+    text-align: left;
+    font: normal normal normal 16px/30px 'Poppins', sans-serif;
+    color: #000000;
+}
+
+.imag img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    background: transparent url('hero.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.contact-btn {
+    width: 140px;
+    height: 40px;
+    background: #FF3147 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font: normal normal 400 17px/28px 'Poppins', sans-serif;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #e02d41;
+}
+
+.contact-btn p {
+    margin: 0;
+    text-align: center;
+    font: normal normal 400 17px/28px 'Poppins', sans-serif;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.modal-title {
+    font: normal normal bold 20px/28px 'Poppins', sans-serif;
+}
+
+.contact-submit-btn {
+    background: #FF3366 0% 0% no-repeat padding-box;
+    border: none;
+    color: #FFFFFF;
+    text-transform: capitalize;
+    padding: 10px 20px;
+    border-radius: 2px;
+}
+
+.contact-submit-btn:hover {
+    background: #e02d41;
+}
+
+/* Underline input style */
+.underline-input {
+    border: none;
+    border-bottom: 1px solid #000;
+    border-radius: 0;
+    outline: none;
+    box-shadow: none;
+}
+
+.underline-input::placeholder {
+    color: #999;
+}
+
+.checkbox{
+    background-color: #e02d41;
+}
+.custom-checkbox input[type="checkbox"] + label::before {
+    color: #FF3366; /* Change color to pink */
+}
+
+.required {
+    color: #000000; /* Black color for the required star */
+}
+
+.image-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 49, 71, 0.8);
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-container:hover .overlay {
+    opacity: 1;
+}
+
+.overlay-icon {
+    width: 57px;
+    height: 57px;
+}
+
+.overlay-title {
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.overlay-text {
+    font-size: 16px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.read-more-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #FFFFFF; /* White background for read more text */
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.read-more-box span {
+    margin-right: 5px;
+    cursor: pointer;
+}
+.read-more-box a{
+    text-decoration: none;
+    color: rgba(255, 49, 71, 0.8);
+    font-weight: 700;
+}
+.arrow {
+    width: 20px;
+    height: 20px;
+}
+
+/* Styles for black dot SVG logos */
+.carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+.active-dot {
+    height: 20px;
+    width: 20px;
+    content: url('1.svg'); /* Change the dot image to 2.svg */
+    border: 2px solid #FF3147; /* Pink color border */
+    border-radius: 50%; /* Make it a circle */
+    transition: border-color 0.3s ease-in-out; /* Add transition effect for smooth change */
+}
+.content-above-images{
+    margin-top: 150px;
+}
+.what-we-do{
+    top: 1037px;
+left: 373px;
+width: 156px;
+height: 22px;
+text-align: left;
+font: normal normal 600 22px/26px Cormorant SC;
+letter-spacing: 0px;
+color: #FF3147;
+opacity: 1;
+}
+.services{
+    top: 1101px;
+    left: 373px;
+    width: 442px;
+    height: 110px;
+    text-align: left;
+    font: normal normal bold 43px/65px Cormorant SC;
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.description{
+    margin-top:-90px;
+    margin-left: 500px;
+    width: 584px;
+    height: 83px;
+    text-align: left;
+    font: normal normal normal 19px/30px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.content1{
+    text-align: center;
+    top: 2067px;
+left: 857px;
+width: 206px;
+height: 24px;
+text-align: center;
+font: normal normal 600 24px/26px Cormorant SC;
+letter-spacing: 0px;
+color: #FF3147;
+opacity: 1;
+
+}
+
+.box3 {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.head-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.content1 {
+    font: normal normal 600 20px/24px 'Cormorant SC', serif;
+    color: #FF3147;
+    margin-bottom: 20px;
+}
+
+.content2 {
+    font: bold 30px/35px 'Cormorant SC', serif;
+    color: black;
+    text-transform: uppercase;
+}
+
+.logo-text {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.img1, .img2, .img3, .img4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    margin: 10px;
+}
+
+.logo1 img, .logo2 img, .logo3 img, .logo4 img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.text1, .text2, .text3, .text4 {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text1s, .text2s, .text3s, .text4s {
+    font-size: 14px;
+    text-align: center;
+}
+.project-image {
+    display: none;
+    width: 100%;
+    height: auto;
+}
+
+.project-image.active {
+    display: block;
+}
+
+.text-row {
+    position: relative;
+    padding: 15px; /* Increased padding */
+    margin-bottom: 10px;
+    transition: background-color 0.3s, color 0.3s, width 0.3s;
+    cursor: pointer;
+}
+
+.text-row.active {
+    background-color: #FF3147;
+    color: #fff;
+    width: 103%;
+    cursor: pointer;
+}
+.text-container{
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+}
+.head-text {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.head-text .content14 {
+    margin-top: 100px;
+    top: 2549px;
+    left: 874px;
+    width: 172px;
+    height: 24px;
+    text-align: center;
+    font: normal normal 600 24px/26px 'Cormorant SC';
+    letter-spacing: 0px;
+    color: #FF3147;
+    text-transform: uppercase;
+    opacity: 1;
+}
+
+.head-text .content24 {
+    top: 2613px;
+    left: 746px;
+    width: 428px;
+    height: 45px;
+    text-align: center;
+    font: normal normal bold 30px/65px 'Cormorant SC';
+    letter-spacing: 0px;
+    color: #000000;
+    text-transform: uppercase;
+    opacity: 1;
+    margin-bottom: 40px;
+}
+
+/*box 5 styles*/
+
+.box5 {
+    text-align: center;
+    padding: 20px 0;
+    top: 3405px;
+left: -1px;
+width: 1920px;
+height: 200px;
+background: #FAFAFA 0% 0% no-repeat padding-box;
+opacity: 1;
+margin-bottom: 100px;
+width: 100%;
+height: 100%;
+}
+
+.head-text5 .content15 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FF3147;
+    margin-bottom: 10px;
+}
+
+.head-text5 .content25 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+.logo-text5 .col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+    padding: 10px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+}
+
+.logo-text5 .col:hover {
+    transform: scale(1.05);
+    box-shadow: 0 px 8px rgba(255, 255, 255, 1);
+    border-color: #FFFFFF;
+    
+}
+.logo35 {
+    
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    position: relative;
+  }
+  
+  .logo35::after {
+    content: "";
+    position: absolute;
+    left: 70%;
+    top: 36%;
+    transform: translate(-50%, -65%) rotate(46deg);
+    width: 10px;
+    height: 25px;
+    border: solid #FF3147;
+    border-width: 0 3px 3px 0;
+    border-right-width: 3.5px; /* Decrease the right border width */
+    /* border-left-width: 4px; */
+  }
+  
+  
+
+.logo15 img, .logo25 img, .logo35 img, .logo45 img {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.text15, .text25, .text35, .text45 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.text1s5, .text2s5, .text3s5, .text4s5 {
+    font-size: 16px;
+    color: #666;
+}
+/* .img35{
+    margin-top: 12px;
+} */
+
+.logo-text5 .row {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .logo-text5 .col {
+    margin: 0 20px; /* Adjust the spacing between columns */
+  }
+  .text35{
+    margin-top: 12px;
+  }
+  .logo45 {
+    position: relative;
+}
+
+.logo45::before {
+    content: '';
+    margin-left: 7px; ;
+    position: absolute;
+    width:16px;
+    height: 3px;
+    background-color: #FF3147;
+    top: 31px; /* Adjust spacing as needed */
+}
+
+
+  .box4{
+    margin-bottom: 50px;
+  }
+
+  .content-container{
+    width: 100%;
+    height: 100%;
+  }
+  .project-image{
+    height: 100%;
+    width: 100%;
+  }
+  
+  .head-text6 .content16 {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #FF3147;
+    margin-bottom: 10px;
+}
+
+.head-text6 .content26 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #000;
+    margin-bottom: 40px;
+}
+
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.box6 {
+    text-align: center;
+    padding: 20px 0;
+    top: 3405px;
+    left: -1px;
+    width: 1920px;
+    height: 200px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin-bottom: 200px;
+    width: 100%;
+    height: 100%;
+    margin-left: 2px;
+}
+
+.logo16 img {
+    margin-left: -594px;
+    margin-top: -25px;
+    position: relative;
+    top: 30px;
+}
+
+.logo16 p {
+    position: relative;
+    width: 690px;
+    margin-left: 250px;
+    margin-top: 0px;
+    text-align: left;
+    font: normal normal normal 20px/34px Poppins;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.content3f {
+    display: flex; /* Use flexbox to display elements in the same line */
+    align-items: center; /* Align items vertically */
+    margin-left: 250px;
+}
+
+.cont1 {
+    font-weight: bold; /* Set font weight to bold */
+    color: #FF3147; /* Set text color to pink */
+    margin-right: 10px; /* Add some space between the two contents */
+}
+
+.cont2 {
+    font: normal normal 300 15px/34px Poppins;
+    letter-spacing: 0px;
+    color: #808080;
+    opacity: 1;
+}
+
+.fiimg {
+    position: relative; /* Establishes a positioning context for the overlay */
+    margin: 0;
+    padding: 0;
+    margin-left: -200px;
+    width: 100vw; /* Full viewport width */
+    display: inline-block;
+}
+
+.fiimg img {
+    max-width: 100%; /* Ensure images take up the full width of the container */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure no extra space around the image */
+    
+}
+
+.fiimg img .overlay {
+    position: absolute; /* Position the overlay image absolutely */
+    top: 0; /* Adjust the top position as needed */
+    left: 0; /* Adjust the left position as needed */
+    width: 100%; /* Adjust this value as needed */
+    height: 100%; /* Adjust this value as needed */
+    pointer-events: none; /* Ensure the overlay doesn't interfere with clicking on the main image */
+    object-fit: none;
+    transform: scale(1.1);
+} 
+ 
+  
